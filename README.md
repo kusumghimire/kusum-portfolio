@@ -1,4 +1,4 @@
-# miracle-view-resort
+# kusum-ghimire-portfolio
 
 ## Project setup
 ```
