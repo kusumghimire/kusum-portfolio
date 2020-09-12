@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li,
+aside,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #090909;
+}
+
+.home {
+  background: #090909;
+  max-height: 100vh;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 120px;
+  color: #e3e3e3;
+  text-align: left;
+}
+
+@media only screen and (min-width: 1600px) {
+  h1 {
+    font-size: 120px;
+    line-height: 150px;
+  }
+}
+
+.section-title {
+  z-index: 10;
+}
+
+.section-about .section-sub-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  color: #e3e3e3;
+}
+
+.section-about p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.section-img {
+  background: #da7171;
+  min-height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
