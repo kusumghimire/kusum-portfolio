@@ -17,7 +17,6 @@ p {
   padding: 0;
   margin: 0;
 }
-
 body {
   background: #090909;
 }
@@ -54,9 +53,62 @@ h1 {
     font-size: 16px;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.75);
+    a {
+      color: #4285f4;
+      text-decoration: none;
+      &:hover {
+        color: #e3e3e3;
+      }
+    }
   }
 }
 .section-img {
   background: #da7171;
-  min-height: 100vh;
+  height: 100vh;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.section-project {
+  .projects {
+    position: relative;
+    figure {
+      position: absolute;
+      left: -50px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .slider-project {
+    color: #e3e3e3;
+  }
+  .slider-btn {
+    .btn {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 20px;
+      padding: 12px 20px ;
+      margin-right: 0.5rem;
+    }
+    .btn-git {
+      background: rgba(51, 51, 51, 0.2);
+      border-radius: 18px;
+      color: #b4b4b4;
+    }
+    .btn-insta {
+      background: linear-gradient(
+        89.73deg,
+        rgba(131, 58, 180, 0.2) 0.22%,
+        rgba(225, 48, 108, 0.2) 47.92%,
+        rgba(247, 119, 55, 0.2) 99.76%
+      );
+      border-radius: 18px;
+      color: #C13584;
+    }
+  }
 }

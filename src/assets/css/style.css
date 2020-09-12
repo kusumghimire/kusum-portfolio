@@ -65,8 +65,62 @@ h1 {
   color: rgba(255, 255, 255, 0.75);
 }
 
+.section-about p a {
+  color: #4285f4;
+  text-decoration: none;
+}
+
+.section-about p a:hover {
+  color: #e3e3e3;
+}
+
 .section-img {
   background: #da7171;
-  min-height: 100vh;
+  height: 100vh;
+}
+
+.section-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section-project .projects {
+  position: relative;
+}
+
+.section-project .projects figure {
+  position: absolute;
+  left: -50px;
+}
+
+.section-project .projects figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-project .slider-project {
+  color: #e3e3e3;
+}
+
+.section-project .slider-btn .btn {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 12px 20px;
+  margin-right: 0.5rem;
+}
+
+.section-project .slider-btn .btn-git {
+  background: rgba(51, 51, 51, 0.2);
+  border-radius: 18px;
+  color: #b4b4b4;
+}
+
+.section-project .slider-btn .btn-insta {
+  background: linear-gradient(89.73deg, rgba(131, 58, 180, 0.2) 0.22%, rgba(225, 48, 108, 0.2) 47.92%, rgba(247, 119, 55, 0.2) 99.76%);
+  border-radius: 18px;
+  color: #C13584;
 }
 /*# sourceMappingURL=style.css.map */
