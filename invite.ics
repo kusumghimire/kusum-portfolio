@@ -1,0 +1,76 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Romance Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTACH:CID:15e601d6885e$38b5f300$
+ATTENDEE;CN="kusum Ghimire";RSVP=TRUE:mailto:kusum.ghimire22@gmail.com
+ATTENDEE;CN=George;RSVP=TRUE:mailto:george@designtork.co
+CLASS:PUBLIC
+CREATED:20200911T170848Z
+DESCRIPTION:As discussed\, scheduling time for a first interview. We’ll s
+	hare the Zoom link before the call. \n\nAll the best! \nArnaud\n\n
+DTEND;TZID="Romance Standard Time":20200914T100000
+DTSTAMP:20200911T170848Z
+DTSTART;TZID="Romance Standard Time":20200914T093000
+LAST-MODIFIED:20200911T170733Z
+LOCATION:Zoom
+ORGANIZER;CN=arnaud@designtork.co:mailto:arnaud@designtork.co
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=fr:Interview Kusum - DesignTork
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000E0F2B2FA6E88D601000000000000000
+	0100000009B1C82A1BCFDC04489D2EE0C3964DEAF
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv=Co
+	ntent-Type content="text/html\; charset=us-ascii"><meta name=Generator con
+	tent="Microsoft Word 15 (filtered medium)"><style><!--\n/* Font Definition
+	s */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5 4 6 
+	3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 2 2 2 4 3 
+	2 4\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNormal\, div.MsoNorma
+	l\n	{margin:0cm\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif
+	\;\n	mso-fareast-language:EN-US\;}\nspan.EmailStyle18\n	{mso-style-type:pe
+	rsonal-compose\;\n	font-family:"Calibri"\,sans-serif\;\n	color:windowtext\
+	;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n	font-size:10.0pt\;}\n
+	@page WordSection1\n	{size:612.0pt 792.0pt\;\n	margin:70.85pt 70.85pt 70.8
+	5pt 70.85pt\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></style><!--[
+	if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" />\n</xm
+	l><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit">\n<o:i
+	dmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]--></head><b
+	ody lang=FR link="#0563C1" vlink="#954F72"><div class=WordSection1><p clas
+	s=MsoNormal><span lang=EN-US>As discussed\, scheduling time for a first in
+	terview. We&#8217\;ll share the Zoom link before the call. <br><br>All the
+	 best! <br>Arnaud<o:p></o:p></span></p></div></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOSTARTCHECK:FALSE
+X-MS-OLK-CONFTYPE:0
+X-MS-OLK-SENDER;CN=arnaud@designtork.co:mailto:arnaud@designtork.co
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
