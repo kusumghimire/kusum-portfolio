@@ -1,8 +1,9 @@
 <template>
   <div class="home container">
     <div class="row no-gutters">
+         <Navbar />
       <div
-        class="rol-12 col-md-6 col-lg-3 col-l-3
+        class="col-12 col-md-6 col-lg-3 col-l-3
          d-flex flex-column justify-content-around section-title"
       >
         <h1 class="text-nowrap">
@@ -27,12 +28,12 @@
         </aside>
       </div>
       <div
-        class="rol-12 col-md-6 col-lg-5 d-flex justify-content-center align-items-end section-img"
+        class="col-12 col-md-6 col-lg-5 d-flex justify-content-center align-items-end section-img"
       >
         <img src="@/assets/img/profile.png" alt="Coffee" srcset />
       </div>
       <div
-        class="rol-12 col-md-6 col-lg-4 d-flex flex-column justify-content-around section-project"
+        class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-around section-project"
       >
         <aside class="projects">
           <figure>
@@ -48,10 +49,14 @@
           </p>
         </aside>
         <aside class="m-4 slider-btn">
-          <a href="" class="btn btn-git"> <img src="@/assets/img/github-alt.png" srcset />
-          Github</a>
-          <a href="" class="btn btn-insta"> <img src="@/assets/img/instagram.png"  srcset />
-          Instagram</a>
+          <a href class="btn btn-git">
+            <img src="@/assets/img/github-alt.png" srcset />
+            Github
+          </a>
+          <a href class="btn btn-insta">
+            <img src="@/assets/img/instagram.png" srcset />
+            Instagram
+          </a>
         </aside>
       </div>
     </div>
@@ -59,8 +64,13 @@
 </template>
 
 <script>
+import Navbar from '@/components/navbar.vue';
+
 export default {
   name: 'Home',
+  components: {
+    Navbar,
+  },
 };
 </script>
 
