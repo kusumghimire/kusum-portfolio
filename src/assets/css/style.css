@@ -37,18 +37,8 @@ p {
   cursor: pointer;
 }
 
-.navigation__background {
-  height: 6rem;
-  width: 6rem;
-  border-radius: 50%;
-  position: fixed;
-  top: 4.5rem;
-  right: 6.5rem;
-  background-color: #000;
-  z-index: 1000;
-}
-
 .navigation__nav {
+  background-color: #000;
   height: 100vh;
   position: fixed;
   top: 0;
