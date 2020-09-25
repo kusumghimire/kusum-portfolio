@@ -44,6 +44,7 @@
 
 @media only screen and (max-width: 991px) {
   .navigation__list {
+    bottom: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -62,6 +63,18 @@
   background-size: 230%;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
+  position: relative;
+}
+
+.navigation__link:link:hover:before, .navigation__link:visited:hover:before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  right: 0;
+  background-color: red;
+  color: red;
 }
 
 .navigation__link:hover, .navigation__link:active {
