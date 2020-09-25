@@ -1,9 +1,9 @@
 <template>
   <div class="home container">
     <div class="row no-gutters">
-         <Navbar />
+      <Navbar />
       <div
-        class="col-12 col-md-6 col-lg-3 col-l-3
+        class="col-12 col-md-6 col-lg-3 col-xl-3
          d-flex flex-column justify-content-around section-title"
       >
         <h1 class="text-nowrap">
@@ -14,7 +14,7 @@
           <img src="@/assets/img/coffee.png" alt="Coffee" srcset />
           <h3 class="section-sub-title text-uppercase py-3">About me</h3>
           <p>
-            Hi, I am Kusum; a frontend
+            Hi, I am Kusum a frontend
             developer based in Kathmandu,
             Nepal. I love working on fun little
             projects during my free time and
@@ -28,12 +28,14 @@
         </aside>
       </div>
       <div
-        class="col-12 col-md-6 col-lg-5 d-flex justify-content-center align-items-end section-img"
+        class="col-12 col-md-6 col-lg-5 col-xl-5
+         d-flex justify-content-center align-items-end section-img"
       >
         <img src="@/assets/img/profile.png" alt="Coffee" srcset />
       </div>
       <div
-        class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-around section-project"
+        class="col-12 col-md-6 col-lg-4 col-xl-4
+         d-flex flex-column justify-content-around section-project"
       >
         <aside class="projects">
           <figure>

@@ -45,11 +45,14 @@
     list-style: none;
     position: absolute;
     bottom: 5%;
-    left: 20%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     width: 100%;
     display: flex;
+    @media only screen and (max-width: 991px) {
+      flex-direction: column;
+    }
   }
 
   &__link {
