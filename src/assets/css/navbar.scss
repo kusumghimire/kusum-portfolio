@@ -69,8 +69,14 @@
       background-size: 230%;
       transition: all 0.4s;
       position: relative;
-    &:hover{
-      &:before{
+    }
+
+    &:hover,
+    &:active {
+      background-position: 100%;
+      transform: translateX(1rem);
+      color: pink;
+      &:before {
         position: absolute;
         content: "";
         width: 50%;
@@ -80,13 +86,6 @@
         background-color: red;
         color: red;
       }
-    }
-    }
-
-    &:hover,
-    &:active {
-      background-position: 100%;
-      transform: translateX(1rem);
     }
   }
 

@@ -14,15 +14,11 @@
           <img src="@/assets/img/coffee.png" alt="Coffee" srcset />
           <h3 class="section-sub-title text-uppercase py-3">About me</h3>
           <p>
-            Hi, I am Kusum a frontend
-            developer based in Kathmandu,
-            Nepal. I love working on fun little
-            projects during my free time and
-            post educational content on
-            Instagram.
+            Hi, I am Kusum a frontend developer based in Kathmandu, Nepal. I
+            love working on fun little projects during my free time and post
+            educational content on Instagram.
             <br />
-            <br />I am open to projects at
-            the moment.
+            <br />I am open to projects at the moment.
             <a href>Contact Me</a>
           </p>
         </aside>
@@ -37,7 +33,8 @@
         class="col-12 col-md-6 col-lg-4 col-xl-4
          d-flex flex-column justify-content-around section-project"
       >
-        <aside class="projects">
+        <verticalSlider />
+        <!-- <aside class="projects">
           <figure>
             <img src="@/assets/img/project.png" alt="Project" srcset />
           </figure>
@@ -49,7 +46,7 @@
             Staock Management Application that make sit easier
             for their users to buy and sell stock online.
           </p>
-        </aside>
+        </aside> -->
         <aside class="m-4 slider-btn">
           <a href class="btn btn-git">
             <img src="@/assets/img/github-alt.png" srcset />
@@ -67,11 +64,13 @@
 
 <script>
 import Navbar from '@/components/navbar.vue';
+import verticalSlider from '@/components/verticalSlider.vue';
 
 export default {
   name: 'Home',
   components: {
     Navbar,
+    verticalSlider,
   },
 };
 </script>

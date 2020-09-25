@@ -66,7 +66,14 @@
   position: relative;
 }
 
-.navigation__link:link:hover:before, .navigation__link:visited:hover:before {
+.navigation__link:hover, .navigation__link:active {
+  background-position: 100%;
+  -webkit-transform: translateX(1rem);
+          transform: translateX(1rem);
+  color: pink;
+}
+
+.navigation__link:hover:before, .navigation__link:active:before {
   position: absolute;
   content: "";
   width: 50%;
@@ -75,12 +82,6 @@
   right: 0;
   background-color: red;
   color: red;
-}
-
-.navigation__link:hover, .navigation__link:active {
-  background-position: 100%;
-  -webkit-transform: translateX(1rem);
-          transform: translateX(1rem);
 }
 
 .navigation__checkbox:checked ~ .navigation__background {
