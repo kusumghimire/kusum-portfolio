@@ -31,7 +31,7 @@
       </div>
       <div
         class="col-12 col-md-6 col-lg-4 col-xl-4
-         d-flex flex-column justify-content-around section-project"
+         d-flex flex-column justify-content-center section-project"
       >
         <verticalSlider />
         <!-- <aside class="projects">

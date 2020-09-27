@@ -74,10 +74,12 @@ p {
   }
 }
 
-.navigation__list h1 {
+.navigation .title-header {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .navigation__link:link, .navigation__link:visited {
@@ -89,32 +91,22 @@ p {
   text-decoration: none;
   text-transform: uppercase;
   background-size: 230%;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
   position: relative;
 }
 
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
-  -webkit-transform: translateX(1rem);
-          transform: translateX(1rem);
-  color: pink;
 }
 
 .navigation__link:hover:before, .navigation__link:active:before {
   position: absolute;
   content: "";
-  width: 50%;
-  height: 3px;
+  width: 47px;
+  height: 8px;
   bottom: 0;
-  right: 0;
-  background-color: red;
-  color: red;
-}
-
-.navigation__checkbox:checked ~ .navigation__background {
-  -webkit-transform: scale(80);
-          transform: scale(80);
+  right: 30px;
+  background: #4285f4;
+  border-radius: 18px;
 }
 
 .navigation__checkbox:checked ~ .navigation__nav {
@@ -240,18 +232,8 @@ h1 {
      object-fit: cover;
 }
 
-.section-project .projects {
-  position: relative;
-}
-
-.section-project .projects figure {
-  position: absolute;
-  left: -50px;
-}
-
-.section-project .projects figure img {
-  width: 100%;
-  height: 100%;
+.section-project {
+  padding-top: 120px;
 }
 
 .section-project .slider-project {

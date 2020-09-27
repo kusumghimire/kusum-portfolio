@@ -82,14 +82,9 @@
   width: 47px;
   height: 8px;
   bottom: 0;
-  right: 0;
-  background: 66, 133, 244, 1;
+  right: 30px;
+  background: #4285f4;
   border-radius: 18px;
-}
-
-.navigation__checkbox:checked ~ .navigation__background {
-  -webkit-transform: scale(80);
-          transform: scale(80);
 }
 
 .navigation__checkbox:checked ~ .navigation__nav {

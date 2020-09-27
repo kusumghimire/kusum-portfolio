@@ -71,7 +71,8 @@
       padding: 1rem 2rem;
       color: #fff;
       text-decoration: none;
-      text-transform: uppercase; // background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+      text-transform: uppercase;
+      // background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
       background-size: 230%;
       // transition: all 0.4s;
       position: relative;
@@ -80,24 +81,22 @@
     &:hover,
     &:active {
       background-position: 100%;
-      //  slateX(1rem);
-      // color: pink;     // transform: tran
       &:before {
         position: absolute;
         content: "";
         width: 47px;
         height: 8px;
         bottom: 0;
-        right: 0;
-        background: 66, 133, 244, 1;
+        right: 30px;
+        background: rgba(66, 133, 244, 1);
         border-radius: 18px;
       }
     }
   }
 
-  &__checkbox:checked ~ &__background {
-    transform: scale(80);
-  }
+  // &__checkbox:checked ~ &__background {
+  //   transform: scale(80);
+  // }
 
   &__checkbox:checked ~ &__nav {
     opacity: 1;
