@@ -52,6 +52,14 @@
   }
 }
 
+.navigation .title-header {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .navigation__link:link, .navigation__link:visited {
   display: inline-block;
   font-size: 3rem;
@@ -61,27 +69,22 @@
   text-decoration: none;
   text-transform: uppercase;
   background-size: 230%;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
   position: relative;
 }
 
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
-  -webkit-transform: translateX(1rem);
-          transform: translateX(1rem);
-  color: pink;
 }
 
 .navigation__link:hover:before, .navigation__link:active:before {
   position: absolute;
   content: "";
-  width: 50%;
-  height: 3px;
+  width: 47px;
+  height: 8px;
   bottom: 0;
   right: 0;
-  background-color: red;
-  color: red;
+  background: 66, 133, 244, 1;
+  border-radius: 18px;
 }
 
 .navigation__checkbox:checked ~ .navigation__background {

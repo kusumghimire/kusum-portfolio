@@ -74,6 +74,12 @@ p {
   }
 }
 
+.navigation__list h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .navigation__link:link, .navigation__link:visited {
   display: inline-block;
   font-size: 3rem;
