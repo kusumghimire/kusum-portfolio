@@ -11,14 +11,14 @@
           <br />Ghimire
         </h1>
         <aside class="section-about">
-          <img class="mt-5" src="@/assets/img/coffee.png" alt="Coffee" srcset />
+          <img class="mt-5 float-img" src="@/assets/img/coffee.png" alt="Coffee" srcset />
           <h3 class="section-sub-title text-uppercase py-3">About me</h3>
           <p>
             Hi, I am Kusum a frontend developer based in Kathmandu, Nepal. I
             love working on fun little projects during my free time and post
             educational content on Instagram.
             <br />
-            <br />I am open to projects at the moment.
+            <br />I am open to projects at the moment.<br>
             <a href>Contact Me</a>
           </p>
         </aside>
