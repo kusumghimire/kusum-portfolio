@@ -117,8 +117,11 @@ export default {
 .slick-next {
   top: 85%;
   right: 5%;
-       @media only screen and (max-width: 991px){
-      top: 75%;
+  @media only screen and (max-width: 991px){
+    top: 75%;
+  }
+    @media only screen and (max-width: 425px){
+      top: 65%;
   }
 }
 .slick-prev {
@@ -128,7 +131,14 @@ export default {
       @media only screen and (max-width: 991px){
       top: 75%;
   left: 86%;
+  }
+      @media only screen and (max-width: 700px){
+      top: 75%;
+  left: 80%;
 
+  }
+    @media only screen and (max-width: 425px){
+      top: 65%;
   }
 }
 

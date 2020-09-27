@@ -6,7 +6,7 @@
     </label>
     <div class="navigation__background">&nbsp;</div>
     <nav class="navigation__nav">
-        <h1 class="title-header">Kusum
+        <h1 class="title-header1">Kusum
           <br>Ghimire</h1>
       <ul class="navigation__list">
         <li class="navigation__item">
@@ -16,7 +16,7 @@
           <a href="#" class="navigation__link">Contact</a>
         </li>
         <li class="navigation__item">
-          <a href="#" class="navigation__link" download="Kusum-Resume.pdf">Download CV</a>
+          <a href="Kusum-Resume.pdf" class="navigation__link" download>Download CV</a>
         </li>
       </ul>
     </nav>

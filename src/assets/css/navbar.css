@@ -49,15 +49,23 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    top: 60%;
   }
 }
 
-.navigation .title-header {
+.navigation .title-header1 {
   position: absolute;
   top: 0;
   left: 30px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+@media only screen and (max-width: 991px) {
+  .navigation .title-header1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 .navigation__link:link, .navigation__link:visited {
