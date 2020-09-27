@@ -22,7 +22,7 @@
   top: 0;
   left: 0;
   z-index: 1500;
-  opacity: 0;
+  display: none;
   width: 0;
   -webkit-transition: all 2.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   transition: all 2.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -65,12 +65,12 @@
   .navigation .title-header1 {
     font-size: 60px;
     line-height: 60px;
+    margin-top: 30px;
   }
 }
 
-.navigation__link:link, .navigation__link:visited {
+.navigation__link:link {
   display: inline-block;
-  font-size: 3rem;
   font-weight: 300;
   padding: 1rem 2rem;
   color: #fff;
@@ -78,6 +78,10 @@
   text-transform: uppercase;
   background-size: 230%;
   position: relative;
+}
+
+.navigation__link:visited {
+  font-size: 2rem;
 }
 
 .navigation__link:hover, .navigation__link:active {
@@ -96,7 +100,7 @@
 }
 
 .navigation__checkbox:checked ~ .navigation__nav {
-  opacity: 1;
+  display: block;
   width: 100%;
 }
 
