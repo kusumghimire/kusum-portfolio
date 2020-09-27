@@ -48,27 +48,31 @@ export default {
       max-width: 400px;
       padding-left: 60px;
       padding-top: 40px;
+      padding-right: 60px;
     }
   }
 }
 .slick-next:before {
-  content: "up";
+  font-family: "Font Awesome 5 Free";
+  content: "\f062";
 }
 .slick-prev:before {
-  content: "down";
+  font-family: "Font Awesome 5 Free";
+  content: "\f063";
 }
 .slick-next {
-  top: 80%;
+  top: 70%;
   right: 5%;
 }
 .slick-prev {
-  top: 90%;
+  top: 80%;
   left: 90%;
+  z-index: 30;
 }
 
 .slick-prev:before,
 .slick-next:before {
-  color: blue;
-  font-size: 30px;
+  color: #4285F4;
+  font-size: 20px;
 }
 </style>
