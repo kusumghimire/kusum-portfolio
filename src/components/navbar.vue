@@ -16,7 +16,7 @@
           <a href="#" class="navigation__link">Contact</a>
         </li>
         <li class="navigation__item">
-          <a href="#" class="navigation__link">Download CV</a>
+          <a href="#" class="navigation__link" download="Kusum-Resume.pdf">Download CV</a>
         </li>
       </ul>
     </nav>

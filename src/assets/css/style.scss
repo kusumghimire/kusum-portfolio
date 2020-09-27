@@ -75,6 +75,9 @@ h1 {
 
 .section-project {
   padding-top: 120px;
+  @media only screen and (max-width:767px){
+padding-top: 0;
+  }
   // .projects {
   //   position: relative;
   //   figure {
@@ -90,6 +93,7 @@ h1 {
     color: #e3e3e3;
   }
   .slider-btn {
+    display: flex;
     .btn {
       font-weight: 500;
       font-size: 20px;

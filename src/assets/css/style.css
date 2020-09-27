@@ -236,8 +236,20 @@ h1 {
   padding-top: 120px;
 }
 
+@media only screen and (max-width: 767px) {
+  .section-project {
+    padding-top: 0;
+  }
+}
+
 .section-project .slider-project {
   color: #e3e3e3;
+}
+
+.section-project .slider-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .section-project .slider-btn .btn {
