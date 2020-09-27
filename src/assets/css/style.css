@@ -259,8 +259,8 @@ h1 {
   50% {
     -webkit-box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
             box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-    -webkit-transform: translatey(-20px);
-            transform: translatey(-20px);
+    -webkit-transform: translatey(-10px);
+            transform: translatey(-10px);
   }
   100% {
     -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
@@ -280,8 +280,8 @@ h1 {
   50% {
     -webkit-box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
             box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-    -webkit-transform: translatey(-20px);
-            transform: translatey(-20px);
+    -webkit-transform: translatey(-10px);
+            transform: translatey(-10px);
   }
   100% {
     -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
