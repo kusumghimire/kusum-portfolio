@@ -91,7 +91,7 @@ p {
   }
 }
 
-.navigation__link:link {
+.navigation__link:link, .navigation__link:visited {
   display: inline-block;
   font-weight: 300;
   padding: 1rem 2rem;
@@ -100,9 +100,6 @@ p {
   text-transform: uppercase;
   background-size: 230%;
   position: relative;
-}
-
-.navigation__link:visited {
   font-size: 2rem;
 }
 
@@ -278,9 +275,20 @@ h1 {
   display: flex;
 }
 
+@media only screen and (max-width: 767px) {
+  .section-project .slider-btn {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .section-project .slider-btn .btn {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 20px;
   padding: 12px 20px;
   margin-right: 0.5rem;

@@ -70,7 +70,8 @@
   }
 
   &__link {
-    &:link {
+    &:link,
+    &:visited  {
       display: inline-block;
       font-weight: 300;
       padding: 1rem 2rem;
@@ -81,10 +82,10 @@
       background-size: 230%;
       // transition: all 0.4s;
       position: relative;
+      
+        font-size: 2rem;
     }
-    &:visited {
-      font-size: 2rem;
-    }
+    
 
     &:hover,
     &:active {
