@@ -85,6 +85,9 @@ export default {
       padding-left: 60px;
       padding-top: 40px;
       padding-right: 60px;
+      @media only screen and(max-width: 991px) {
+      padding-left: 0px;
+      }
     }
   }
 }
