@@ -39,35 +39,36 @@ export default {
       height: 430px;
       width: 100%;
       object-fit: cover;
-      @media only screen and (max-width:1600px){
+      @media only screen and (max-width: 1600px) {
         height: 100%;
       }
     }
-    .content{
+    .content {
       color: #fff;
       max-width: 400px;
       padding-left: 60px;
-padding-top: 40px;
+      padding-top: 40px;
     }
   }
 }
 .slick-next:before {
-    content: 'up';
+  content: "up";
 }
 .slick-prev:before {
-    content: 'down';
+  content: "down";
 }
-  .slick-next{
-    top: 80%;
-    right: 5%;
-  }
-   .slick-prev{
-    top: 90%;
-    left: 90%;
-  }
+.slick-next {
+  top: 80%;
+  right: 5%;
+}
+.slick-prev {
+  top: 90%;
+  left: 90%;
+}
 
-.slick-prev:before, .slick-next:before{
-  color:blue;
+.slick-prev:before,
+.slick-next:before {
+  color: blue;
   font-size: 30px;
 }
 </style>
