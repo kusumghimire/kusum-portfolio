@@ -15,6 +15,13 @@
   cursor: pointer;
 }
 
+@media only screen and (min-width: 1600px) {
+  .navigation__button {
+    top: 5rem;
+    right: 5rem;
+  }
+}
+
 .navigation__nav {
   background-color: #000;
   height: 100vh;

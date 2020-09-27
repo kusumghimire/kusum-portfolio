@@ -15,6 +15,10 @@
     // box-shadow: 0 1rem 3rem rgba(#000, 0.2);
     text-align: center;
     cursor: pointer;
+    @media only screen and (min-width:1600px){
+      top: 5rem;
+      right: 5rem;
+    }
   }
 
   // &__background {
