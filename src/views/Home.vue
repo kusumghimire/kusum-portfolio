@@ -11,7 +11,7 @@
           <br />Ghimire
         </h1>
         <aside class="section-about">
-          <img src="@/assets/img/coffee.png" alt="Coffee" srcset />
+          <img class="mt-5" src="@/assets/img/coffee.png" alt="Coffee" srcset />
           <h3 class="section-sub-title text-uppercase py-3">About me</h3>
           <p>
             Hi, I am Kusum a frontend developer based in Kathmandu, Nepal. I
