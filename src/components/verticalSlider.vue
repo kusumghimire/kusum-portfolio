@@ -5,9 +5,8 @@
         <img src="@/assets/img/project.png" alt="" />
         <div class="content">
           <h5>Project1</h5>
-          Worked as a lead frontend developer for the Tradr Stock Management
-          Application that makes it easier for their users to buy and sell stock
-          online.
+          Worked as a lead frontend developer for the Tradr Stock Management Application that makes
+          it easier for their users to buy and sell stock online.
         </div>
       </div>
 
@@ -15,27 +14,24 @@
         <img src="@/assets/img/project-1.png" alt="" />
         <div class="content">
           <h5>Project2</h5>
-          Worked as a lead frontend developer for the Tradr Stock Management
-          Application that makes it easier for their users to buy and sell stock
-          online.
+          Worked as a lead frontend developer for the Tradr Stock Management Application that makes
+          it easier for their users to buy and sell stock online.
         </div>
       </div>
-       <div class="slide">
+      <div class="slide">
         <img src="@/assets/img/project.png" alt="" />
         <div class="content">
           <h5>Project3</h5>
-          Worked as a lead frontend developer for the Tradr Stock Management
-          Application that makes it easier for their users to buy and sell stock
-          online.
+          Worked as a lead frontend developer for the Tradr Stock Management Application that makes
+          it easier for their users to buy and sell stock online.
         </div>
       </div>
-       <div class="slide">
+      <div class="slide">
         <img src="@/assets/img/project.png" alt="" />
         <div class="content">
           <h5>Project5</h5>
-          Worked as a lead frontend developer for the Tradr Stock Management
-          Application that makes it easier for their users to buy and sell stock
-          online.
+          Worked as a lead frontend developer for the Tradr Stock Management Application that makes
+          it easier for their users to buy and sell stock online.
         </div>
       </div>
     </VueSlickCarousel>
@@ -59,13 +55,13 @@ export default {
 <style lang="scss">
 .banner-slider {
   margin-left: -30px;
-  @media only screen and (max-width: 991px){
-  margin-left: 0px;
+  @media only screen and (max-width: 991px) {
+    margin-left: 0px;
   }
-    @media only screen and (max-width: 767px){
-  margin-top: -50px;
-  margin-left: 20px;
-  margin-right: 20px;
+  @media only screen and (max-width: 767px) {
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .slide {
     img {
@@ -75,9 +71,9 @@ export default {
       @media only screen and (max-width: 1600px) {
         height: 320px;
       }
-      @media only screen and (max-width: 991px){
-      height: 300px;
-    }
+      @media only screen and (max-width: 991px) {
+        height: 300px;
+      }
     }
     .content {
       color: #fff;
@@ -86,7 +82,7 @@ export default {
       padding-top: 40px;
       padding-right: 60px;
       @media only screen and(max-width: 991px) {
-      padding-left: 0px;
+        padding-left: 0px;
       }
     }
   }
@@ -100,48 +96,47 @@ export default {
   font-weight: 900;
   padding: 0 5px;
   opacity: 0.5;
-  @media only screen and (max-width: 991px){
+  @media only screen and (max-width: 991px) {
     transform: rotate(90deg);
   }
 }
 .slick-prev:before {
   font-family: "Font Awesome 5 Free";
   content: "\f063";
-   display: inline-block;
+  display: inline-block;
   // padding-right: 3px;
   vertical-align: middle;
   font-weight: 900;
   padding: 0 5px;
   opacity: 0.5;
-    @media only screen and (max-width: 991px){
+  @media only screen and (max-width: 991px) {
     transform: rotate(90deg);
   }
 }
 .slick-next {
   top: 85%;
   right: 5%;
-  @media only screen and (max-width: 991px){
+  @media only screen and (max-width: 991px) {
     top: 75%;
   }
-    @media only screen and (max-width: 425px){
-      top: 65%;
+  @media only screen and (max-width: 425px) {
+    top: 65%;
   }
 }
 .slick-prev {
   top: 95%;
   left: 90%;
   z-index: 30;
-      @media only screen and (max-width: 991px){
-      top: 75%;
-  left: 86%;
+  @media only screen and (max-width: 991px) {
+    top: 75%;
+    left: 86%;
   }
-      @media only screen and (max-width: 700px){
-      top: 75%;
-  left: 80%;
-
+  @media only screen and (max-width: 700px) {
+    top: 75%;
+    left: 80%;
   }
-    @media only screen and (max-width: 425px){
-      top: 65%;
+  @media only screen and (max-width: 425px) {
+    top: 65%;
   }
 }
 
@@ -153,5 +148,4 @@ export default {
 .slick-slide {
   outline: none;
 }
-
 </style>
