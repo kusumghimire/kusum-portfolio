@@ -1,8 +1,9 @@
 import HomePage from '../views/Home.vue';
-import Contact from '../views/Contact.vue';
+import About from '../views/About.vue';
+
 
 export default [
     { path: '/', name: 'homepage', component: HomePage },
-    { path: '/contact', name: 'contact', component: Contact },
+    { path: '/about', name: 'about', component: About },
 
 ];

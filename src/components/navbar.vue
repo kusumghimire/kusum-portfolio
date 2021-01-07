@@ -9,7 +9,7 @@
       <h1 class="title-header1">Kusum <br />Ghimire</h1>
       <ul class="navigation__list">
         <li class="navigation__item">
-            <router-link to="/">
+            <router-link to="/" class="navigation__link">
               Home
             </router-link>
         </li>

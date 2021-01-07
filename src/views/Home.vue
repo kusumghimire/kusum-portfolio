@@ -18,7 +18,8 @@
             little projects during my free time and post educational content on Instagram.
             <br />
             <br />I am open to projects at the moment.<br />
-            <a href>Contact Me</a>
+            <router-link to="/about">Contact me</router-link>
+
           </p>
         </aside>
       </div>
