@@ -221,6 +221,13 @@ h2.text-nowrap {
   font-weight: 300;
   font-size: 60px;
   line-height: 60px;
+  padding-bottom: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+  h2.text-nowrap {
+    font-size: 32px;
+  }
 }
 
 .section-title {
@@ -255,6 +262,32 @@ h2.text-nowrap {
 .section-about .float-img {
   -webkit-animation: float 6s ease-in-out infinite;
           animation: float 6s ease-in-out infinite;
+}
+
+.section-contact {
+  padding-top: 130px;
+}
+
+.section-contact a {
+  color: #e3e3e3;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.section-contact a i {
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 991px) {
+  .section-contact a {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .section-contact {
+    padding-top: 50px;
+  }
 }
 
 @-webkit-keyframes float {
