@@ -215,6 +215,14 @@ h1 {
   }
 }
 
+h2.text-nowrap {
+  color: #e3e3e3;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 60px;
+}
+
 .section-title {
   z-index: 10;
 }
@@ -363,7 +371,11 @@ h1 {
 }
 
 @media (min-width: 1599px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
     max-width: 1700px;
   }
 }

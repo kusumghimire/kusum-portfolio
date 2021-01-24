@@ -19,7 +19,6 @@
             <br />
             <br />I am open to projects at the moment.<br />
             <router-link to="/about">Contact me</router-link>
-
           </p>
         </aside>
       </div>

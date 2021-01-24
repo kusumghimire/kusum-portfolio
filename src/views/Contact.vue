@@ -26,7 +26,6 @@
         class="col-12 col-md-12 col-lg-4 col-xl-4
          d-flex flex-column justify-content-center section-project"
       >
-
       </div>
     </div>
   </div>
