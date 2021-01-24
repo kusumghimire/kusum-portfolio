@@ -17,9 +17,16 @@
           </router-link>
         </li>
         <li class="navigation__item">
-          <!-- <a href="Kusum-Resume.pdf" class="navigation__link" download>Download CV</a> -->
+          <a href="https://docs.google.com/document/d/1KQJDU_8kGWH5dJ8TyW6UAGe4kOXH5XyAn_Ze0ny6rmU/edit?usp=sharing" class="navigation__link" download>Download CV</a>
         </li>
       </ul>
     </nav>
   </div>
 </template>
+
+<script>
+// $(document).on('click', '[download]', function (e) {
+//     e.preventDefault();
+//     download($(this).attr('href'));
+// });
+</script>
