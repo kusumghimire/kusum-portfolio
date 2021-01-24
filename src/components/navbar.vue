@@ -17,7 +17,7 @@
           </router-link>
         </li>
         <li class="navigation__item">
-          <a href="https://docs.google.com/document/d/1KQJDU_8kGWH5dJ8TyW6UAGe4kOXH5XyAn_Ze0ny6rmU/edit?usp=sharing" class="navigation__link" download>Download CV</a>
+          <a href="https://drive.google.com/drive/folders/1JuW044GxLGm6GPNjo8sDF5atRwD2V0c7" target="_blank" class="navigation__link" download>Download CV</a>
         </li>
       </ul>
     </nav>
